@@ -1,0 +1,42 @@
+# Ambientes virtuais (venv, .env, .venv)
+.env
+.venv/
+venv/
+
+# Arquivos de configuração do VS Code
+.vscode/
+
+# Arquivos de log e caches do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Arquivos de banco de dados SQLite ou outros locais
+*.sqlite3
+*.db
+
+# Arquivos de output ou builds
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks checkpoints (se usar)
+.ipynb_checkpoints/
+
+# Configurações pessoais do projeto
+.env.*
+*.secret
+secrets.*
+
+# Pytest e cobertura
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
