@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Extração de Texto com IA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Extração de Texto com Inteligência Artificial</h1>
+
+  <section>
+    <h2>1. Faça o upload do documento -  - altrado</h2>
+    <input type="file" id="fileInput" />
+    <button onclick="uploadFile()">Escolher Arquivo</button>
+  </section>
+
+  <section>
+    <h2>2. Texto extraído do documento</h2>
+    <textarea id="extractedText" rows="6" readonly></textarea>
+  </section>
+
+  <section>
+    <h2>3. Insira o prompt para análise</h2>
+    <textarea id="promptText" rows="2">Extraia o nome do cliente, data de emissão e valor total.</textarea>
+  </section>
+
+  <section>
+    <h2>4. Analisar</h2>
+    <button onclick="analyzeText()">Analisar</button>
+  </section>
+
+  <section>
+    <h2>5. Resultado da análise</h2>
+    <textarea id="resultText" rows="2" readonly></textarea>
+  </section>
+
+  <section>
+    <h2>6. Histórico de arquivos lidos</h2>
+    <button onclick="loadHistory()">Carregar Histórico</button>
+    <div id="historyDiv" style="margin-top:10px; max-height:200px; overflow:auto;"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
