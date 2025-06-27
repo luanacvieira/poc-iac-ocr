@@ -5,7 +5,6 @@ Este projeto contém:
 - Pasta `uploads/` para arquivos enviados
 - Arquivo `.env` para variáveis de ambiente --> Necessário alterar e colocar sua chave Open AI
 ![image](https://github.com/user-attachments/assets/545f3cc9-ea4f-47c8-8825-0b394d69ac94)
-
 # poc-iac-ocr
 Este repositório contém uma Prova de Conceito (PoC) para a extração de informações de arquivos PDF utilizando OCR com tecnologias da OpenAI. 
 A aplicação permite:
