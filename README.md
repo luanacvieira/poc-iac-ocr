@@ -8,10 +8,10 @@ Este projeto contém:
 # poc-iac-ocr
 Este repositório contém uma Prova de Conceito (PoC) para a extração de informações de arquivos PDF utilizando OCR com tecnologias da OpenAI. 
 A aplicação permite:
-Leitura automatizada de campos em arquivos PDF via OCR.
-Armazenamento do histórico de arquivos processados.
-Consulta ao histórico de leituras anteriores, com persistência em arquivos JSON.
-Ideal para testes e validação de soluções baseadas em OCR integradas a pipelines de automação ou projetos de IA.
+- Leitura automatizada de campos em arquivos PDF via OCR.
+- Armazenamento do histórico de arquivos processados.
+- Consulta ao histórico de leituras anteriores, com persistência em arquivos JSON.
+- Ideal para testes e validação de soluções baseadas em OCR integradas a pipelines de automação ou projetos de IA.
 
 # Fluxo na Tela
 Usuário faz upload de um PDF de uma fatura.
