@@ -3,7 +3,9 @@ Este projeto contém:
 - Backend em Python (`backend/`)
 - Frontend em HTML/CSS/JS (`frontend/`)
 - Pasta `uploads/` para arquivos enviados
-- Arquivo `.env` para variáveis de ambiente
+- Arquivo `.env` para variáveis de ambiente --> Necessário alterar e colcoar sua chave Open AI
+![image](https://github.com/user-attachments/assets/545f3cc9-ea4f-47c8-8825-0b394d69ac94)
+
 
 # poc-iac-ocr
 Este repsoitório tem uma POC onde testamos a leitura de campos de arquivos OCR, com opção de consultar o histórico dos arquivos lidos, salvando o histório das leituras em arquivo json.
