@@ -3,7 +3,7 @@ Este projeto contém:
 - Backend em Python (`backend/`)
 - Frontend em HTML/CSS/JS (`frontend/`)
 - Pasta `uploads/` para arquivos enviados
-- Arquivo `.env` para variáveis de ambiente --> Necessário alterar e colcoar sua chave Open AI
+- Arquivo `.env` para variáveis de ambiente --> Necessário alterar e colocar sua chave Open AI
 ![image](https://github.com/user-attachments/assets/545f3cc9-ea4f-47c8-8825-0b394d69ac94)
 
 
